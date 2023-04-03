@@ -6,7 +6,7 @@ public class Main {
         int bonus = refill >= 1000 ? refill / 100 : 0;
         int finalScore = currentAmount + refill + bonus;
 
-        // Второй вариант
+        // Второй вариант расчета бонуса
         // int bonus;
         // if (refill >= 1000) {
         // bonus = refill / 100;
